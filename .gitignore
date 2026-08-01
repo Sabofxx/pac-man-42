@@ -25,3 +25,22 @@ dist/
 # Local runtime files
 highscores.json
 GUIDE_DEFENSE_42.md
+
+# Build artefacts and compiled output
+*.o
+*.a
+*.so
+a.out
+*.pyc
+__pycache__/
+*.egg-info/
+*.whl
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# OS noise
+.DS_Store
